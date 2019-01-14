@@ -1,0 +1,7 @@
+{
+  "name": "js-react-ctrl",
+  "mode": "file",
+  "out": "dist/docs/api",
+  "theme": "minimal",
+  "ignoreCompilerErrors": "true"
+}
