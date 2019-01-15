@@ -1,2 +1,4 @@
-# js-react-ctrl
-Some functions to handle the behavior of components in a non-class-based classical way
+# js-react-hooks
+Some custom hooks for React
+
+Project has not started yet.

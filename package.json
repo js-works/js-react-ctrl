@@ -1,16 +1,16 @@
 {
-  "name": "js-react-ctrl",
+  "name": "js-react-hooks",
   "version": "0.0.1",
   "license": "LGPL-3.0",
-  "homepage": "https://github.com/js-works/js-react-ctrl",
+  "homepage": "https://github.com/js-works/js-react-hooks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/js-works/js-react-ctrl.git"
+    "url": "https://github.com/js-works/js-react-hooks.git"
   },
   "main": "index.js",
-  "module": "dist/js-react-ctrl.ems.production.js",
-  "unpkg": "dist/js-react-ctrl.umd.production.js",
-  "jsdelivr": "dist/js-react-ctrl.umd.production.js",
+  "module": "dist/js-react-hooks.ems.production.js",
+  "unpkg": "dist/js-react-hooks.umd.production.js",
+  "jsdelivr": "dist/js-react-hooks.umd.production.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "index.js",
@@ -82,7 +82,7 @@
     "test": "nyc mocha -r ts-node/register -r source-map-support/register src/test/**/*.ts",
     "test-watch": "mocha -w -r ts-node/register -r source-map-support/register src/test/**/*.ts",
     "demo": "rollup --c rollup.demo.config.js -w",
-    "docs": "shx rm -rf ./dist/docs && cross-conf-env typedoc --options ./typedoc.json --name \"js-react-ctrl (version npm_package_version)\" src/main/api",
+    "docs": "shx rm -rf ./dist/docs && cross-conf-env typedoc --options ./typedoc.json --name \"js-react-hooks (version npm_package_version)\" src/main/api",
     "zipsource": "shx rm -rf ./build/source && shx mkdir -p ./build/source && copyfiles -a ./* ./build/source && shx cp -r ./src ./build/source && shx mkdir -p ./dist/source && cd build/source && bestzip ../../dist/source/source.zip . && cd ../..",
     "dist": "npm run clean && npm run test && npm run build && npm run docs && npm run zipsource"
   }

@@ -24,11 +24,11 @@ function createConfig(moduleFormat, productive) {
 
     output: {
       file: productive
-        ? `dist/js-react-ctrl.${moduleFormat}.production.js`
-        : `dist/js-react-ctrl.${moduleFormat}.development.js`,
+        ? `dist/js-react-hooks.${moduleFormat}.production.js`
+        : `dist/js-react-hooks.${moduleFormat}.development.js`,
 
       format: moduleFormat,
-      name: 'jsReactCtrl', 
+      name: 'jsReactHooks', 
       sourcemap: productive ? false : 'inline',
 
       globals: {
